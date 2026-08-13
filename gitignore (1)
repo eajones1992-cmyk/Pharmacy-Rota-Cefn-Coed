@@ -1,0 +1,9 @@
+# Never commit rota files — they contain named staff and their working patterns
+*.json
+!package.json
+rota*.json
+*-backup-*.json
+
+# Build artefacts and dependencies
+node_modules/
+app.bundle.js
